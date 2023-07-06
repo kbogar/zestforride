@@ -1,0 +1,23 @@
+.App {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover i {
+    color: #d19fa1;
+    transition: color ease-in-out 0.3s;
+}
+
+i {
+    color: #575757;
+    padding: 2px;
+}
