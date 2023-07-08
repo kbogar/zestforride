@@ -4,10 +4,10 @@
 
 .Input {
     background: #ffffff;
-    border: 1px solid #f0f1f9;
+    border: 1px solid #575757;
     box-sizing: border-box;
     border-radius: 2px;
-    color: #7177a1;
+    color: #574142;
     text-align: center;
     padding: 10px;
 }
@@ -20,7 +20,7 @@
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #575757;
+    color: #574142;
 }
   
 .Link {
