@@ -14,6 +14,7 @@ import ProfilePage from './pages/profiles/ProfilePage';
 import UsernameForm from "./pages/profiles/UsernameForm";
 import UserPasswordForm from "./pages/profiles/UserPasswordForm";
 import ProfileEditForm from "./pages/profiles/ProfileEditForm";
+import EventsPage from './pages/events/EventsPage';
 
 function App() {
   const currentUser = useCurrentUser();
@@ -38,9 +39,10 @@ function App() {
             exact
             path="/events"
             render={() => (
-              <div>
-                <h1>Events Page</h1>
-              </div>
+              <EventsPage
+                message="No results found. Adjust the search keyword."
+                filter={`owner__followed__owner__profile=${profile_id}&`}
+              />
             )}
           />
           <Route
