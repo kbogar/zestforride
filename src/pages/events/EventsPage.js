@@ -12,6 +12,7 @@ import NoResults from "../../assets/no-results.png";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { fetchMoreData } from "../../utils/utils";
 import PopularProfiles from "../profiles/PopularProfiles";
+import Event from "./Event";
 
 function EventsPage({ message, filter = "" }) {
     const [events, setEvents] = useState({ results: [] });
@@ -65,8 +66,7 @@ function EventsPage({ message, filter = "" }) {
                             <InfiniteScroll
                                 children={
                                     events.results.map((event) => (
-                                        // <Post key={post.id} {...post} setPosts={setPosts} />
-                                        <h1>Event</h1>
+                                        <Event key={event.id} {...event} setEvents={setEvents} />
                                     ))
                                 }
                                 dataLength={events.results.length}
