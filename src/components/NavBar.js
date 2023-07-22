@@ -34,6 +34,17 @@ const NavBar = () => {
         </NavLink>
     );
 
+    const addEventIcon = (
+        <NavLink
+            exact
+            className={styles.NavLink}
+            activeClassName={styles.Active}
+            to="/events/create"
+        >
+            <i class="fa-solid fa-square-plus"></i>Add event
+        </NavLink>
+    );
+
     const loggedInIcons = (
         <>
             <NavLink
@@ -42,7 +53,7 @@ const NavBar = () => {
                 activeClassName={styles.Active}
                 to="/events"
             >
-                <i class="fa-solid fa-calendar-plus"></i>Events
+                Events
             </NavLink>
             <NavLink
                 exact
@@ -50,7 +61,7 @@ const NavBar = () => {
                 activeClassName={styles.Active}
                 to="/liked"
             >
-                <i class="fa-solid fa-thumbs-up"></i>Liked
+                Liked
             </NavLink>
             <NavLink
                 exact
@@ -58,7 +69,7 @@ const NavBar = () => {
                 activeClassName={styles.Active}
                 to="/contact"
             >
-                <i class="fa-solid fa-envelope"></i>Contact us
+                Contact us
             </NavLink>
             <NavLink
                 exact
@@ -70,12 +81,14 @@ const NavBar = () => {
             </NavLink>
             <NavLink
                 className={styles.NavLink}
+                activeClassName={styles.Active}
                 to={`/profiles/${currentUser?.profile_id}`}
             >
                 <Avatar src={currentUser?.profile_image} text="Profile" height={40} />
             </NavLink>
         </>
     );
+
     const loggedOutIcons = (
         <>
             <NavLink
@@ -111,6 +124,7 @@ const NavBar = () => {
                     </Navbar.Brand>
                 </NavLink>
                 {currentUser && addPostIcon}
+                {currentUser && addEventIcon}
                 <Navbar.Toggle
                     ref={ref}
                     onClick={() => setExpanded(!expanded)}
@@ -124,7 +138,7 @@ const NavBar = () => {
                             activeClassName={styles.Active}
                             to="/"
                         >
-                            <i class="fa-solid fa-tent"></i>Home
+                            Home
                         </NavLink>
                         {currentUser ? loggedInIcons : loggedOutIcons}
                     </Nav>
