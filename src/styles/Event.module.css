@@ -11,14 +11,14 @@ h5 {
     margin: 0 0;
 }
 
-.Thumbs {
+.Interested {
     color: #f85032;
 }
 
-.Thumbs:hover {
+.Interested:hover {
     color: #2142b2;
 }
 
-.ThumbsOutline:hover {
+.InterestedOutline:hover {
     color: #f85032;
 }

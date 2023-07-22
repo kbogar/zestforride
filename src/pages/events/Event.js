@@ -99,25 +99,27 @@ const Event = (props) => {
             </Link>
             <Card.Body>
                 {name && <Card.Title className='text-center'>{name}</Card.Title>}
+                <p>Date</p>
                 {date && <Card.Title className='text-center'>{date}</Card.Title>}
                 {time && <Card.Title className='text-center'>{time}</Card.Title>}
                 {event_details && <Card.Text>{event_details}</Card.Text>}
                 <div className={styles.PostBar}>
+                    <p>Click on the check box if you are interested!</p>
                     {is_owner ? (
-                        <OverlayTrigger placement='top' overlay={<Tooltip>You can't like your own post!</Tooltip>}>
-                            <i className='fa-regular fa-thumbs-up' />
+                        <OverlayTrigger placement='top' overlay={<Tooltip>You can't be interested in your own event, sorry!</Tooltip>}>
+                            <i className='fa-solid fa-circle-check' />
                         </OverlayTrigger>
                     ) : interested_id ? (
                         <span onClick={handleNotInterested}>
-                            <i className={`fa-regular fa-thumbs-up ${styles.Thumbs}`} />
+                            <i className={`fa-solid fa-circle-check ${styles.Interested}`} />
                         </span>
                     ) : currentUser ? (
                         <span onClick={handleInterested}>
-                            <i className={`fa-regular fa-thumbs-up ${styles.ThumbsOutline}`} />
+                            <i className={`fa-solid fa-circle-check ${styles.InterestedOutline}`} />
                         </span>
                     ) : (
                         <OverlayTrigger placement='top' overlay={<Tooltip>Log in to be interested!!</Tooltip>}>
-                            <i className='fa-regular fa-thumbs-up' />
+                            <i className='fa-solid fa-circle-check' />
                         </OverlayTrigger>
                     )}
                     {interested_count}
