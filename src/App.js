@@ -16,6 +16,7 @@ import UserPasswordForm from "./pages/profiles/UserPasswordForm";
 import ProfileEditForm from "./pages/profiles/ProfileEditForm";
 import EventsPage from './pages/events/EventsPage';
 import EventPage from './pages/events/EventPage';
+import EventCreateForm from './pages/events/EventCreateForm';
 
 function App() {
   const currentUser = useCurrentUser();
@@ -42,7 +43,7 @@ function App() {
             render={() => (
               <EventsPage
                 message="No results found. Adjust the search keyword."
-                filter={`owner__followed__owner__profile=${profile_id}&`}
+                //filter={`owner__followed__owner__profile=${profile_id}&`}
               />
             )}
           />
@@ -61,6 +62,7 @@ function App() {
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
           <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
+          <Route exact path="/events/create" render={() => <EventCreateForm />} />
           <Route exact path="/events/:id" render={() => <EventPage />} />
           <Route exact path="/profiles/:id" render={() => <ProfilePage />} />
           <Route
