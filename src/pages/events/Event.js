@@ -98,12 +98,19 @@ const Event = (props) => {
                 <Card.Img src={image} alt={name} />
             </Link>
             <Card.Body>
+                <Card.Header className={styles.Header}>
+                    Event Details
+                </Card.Header>
+                <hr></hr>
                 {name && <Card.Title className='text-center'>{name}</Card.Title>}
-                <p>Date</p>
+                <hr></hr>
+                <p>date and time:</p>
                 {date && <Card.Title className='text-center'>{date}</Card.Title>}
                 {time && <Card.Title className='text-center'>{time}</Card.Title>}
+                <hr></hr>
                 {event_details && <Card.Text>{event_details}</Card.Text>}
-                <div className={styles.PostBar}>
+                <hr></hr>
+                <div className={styles.EventBar}>
                     <p>Click on the check box if you are interested!</p>
                     {is_owner ? (
                         <OverlayTrigger placement='top' overlay={<Tooltip>You can't be interested in your own event, sorry!</Tooltip>}>
@@ -123,7 +130,7 @@ const Event = (props) => {
                         </OverlayTrigger>
                     )}
                     {interested_count}
-                    
+
                 </div>
             </Card.Body>
         </Card>

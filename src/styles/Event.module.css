@@ -11,6 +11,17 @@ h5 {
     margin: 0 0;
 }
 
+.EventBar {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.Header {
+    background-color: #574142;
+    color: #ffffff;
+    font-size: larger;
+}
+
 .Interested {
     color: #f85032;
 }
