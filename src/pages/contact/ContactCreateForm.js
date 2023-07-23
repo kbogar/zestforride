@@ -29,23 +29,15 @@ function ContactCreateForm() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        const formData = new FormData();
-
-        formData.append('name', name);
-        formData.append('email', email);
-        formData.append('subject', subject);
-        formData.append('message', message);
-
+        console.log(contactData)
         try {
-            const { data } = await axiosReq.post('/contact/', formData);
-            history.push(`/contact/${data.id}`);
+          await axiosReq.post("/contact/", contactData);
+          history.push("/contactconfirmation");
         } catch (err) {
-            console.log(err);
-            if (err.response?.status !== 401) {
-                setErrors(err.response?.data);
-            }
+          console.log('ERROR in submit: ', err)
+          setErrors(err.response?.data);
         }
-    };
+      };
 
     return (
         <Row className={styles.Row}>
