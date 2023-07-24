@@ -6,8 +6,10 @@ import btnStyles from "../../styles/Button.module.css";
 import { useHistory } from "react-router";
 import { axiosReq } from "../../api/axiosDefaults";
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
+import { useRedirect } from "../../hooks/useRedirect";
 
 function EventEditForm() {
+    useRedirect('loggedOut');
     const [errors, setErrors] = useState({});
 
     const [eventData, setEventData] = useState({

@@ -1,19 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-//import Container from "react-bootstrap/Container";
-//import appStyles from "../../App.module.css";
 import { useParams } from "react-router";
 import { axiosReq } from "../../api/axiosDefaults";
 import Event from "./Event";
-//import { useCurrentUser } from "../../contexts/CurrentUserContext";
 import PopularProfiles from "../profiles/PopularProfiles";
 
 function EventPage() {
     const { id } = useParams();
     const [event, setEvent] = useState({ results: [] });
-    //const currentUser = useCurrentUser();
-
 
     useEffect(() => {
         const handleMount = async () => {

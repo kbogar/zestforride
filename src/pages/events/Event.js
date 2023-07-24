@@ -7,8 +7,10 @@ import Avatar from "../../components/Avatar";
 import { axiosRes } from '../../api/axiosDefaults';
 import { MoreDropdown } from '../../components/MoreDropdown';
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+import { useRedirect } from '../../hooks/useRedirect';
 
 const Event = (props) => {
+    useRedirect('loggedOut');
     const {
         id,
         owner,

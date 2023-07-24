@@ -13,8 +13,10 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import { fetchMoreData } from "../../utils/utils";
 import PopularProfiles from "../profiles/PopularProfiles";
 import Event from "./Event";
+import { useRedirect } from "../../hooks/useRedirect";
 
 function EventsPage({ message, filter = "" }) {
+    useRedirect('loggedOut');
     const [events, setEvents] = useState({ results: [] });
     const [hasLoaded, setHasLoaded] = useState(false);
     const { pathname } = useLocation();
