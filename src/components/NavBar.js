@@ -86,7 +86,7 @@ const NavBar = () => {
                 activeClassName={styles.Active}
                 to={`/profiles/${currentUser?.profile_id}`}
             >
-                <Avatar src={currentUser?.profile_image} text="Profile" height={40} />
+                <Avatar src={currentUser?.profile_image} text={currentUser?.username} height={40} />
             </NavLink>
         </>
     );
@@ -116,7 +116,7 @@ const NavBar = () => {
         <Navbar
             expanded={expanded}
             className={styles.NavBar}
-            expand="lg"
+            expand="xl"
             fixed="top"
         >
             <Container>

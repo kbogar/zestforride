@@ -1,11 +1,10 @@
 .NavBar {
     background-color: #f9f8f8;
-    border: 1px solid #574142;
     font-size: 25px;
 }
 
 .Active {
-    color: #d19fa1;
+    color: #fe526f;
 }
 
 i {
