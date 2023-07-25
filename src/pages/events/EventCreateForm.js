@@ -129,12 +129,12 @@ function EventCreateForm() {
             ))}
 
             <Button
-                className={`${btnStyles.Button} ${btnStyles.Blue}`}
+                className={`${btnStyles.Button} ${btnStyles.Black}`}
                 onClick={() => history.goBack()}
             >
                 cancel
             </Button>
-            <Button className={`${btnStyles.Button} ${btnStyles.Blue}`} type="submit">
+            <Button className={`${btnStyles.Button} ${btnStyles.Black}`} type="submit">
                 create
             </Button>
         </div>
@@ -155,7 +155,7 @@ function EventCreateForm() {
                                     </figure>
                                     <div>
                                         <Form.Label
-                                            className={`${btnStyles.Button} ${btnStyles.Blue} btn`}
+                                            className={`${btnStyles.Button} ${btnStyles.Black} btn`}
                                             htmlFor="image-upload"
                                         >
                                             Change the image
