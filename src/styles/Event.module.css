@@ -1,6 +1,6 @@
 .Event {
-    background-color: #ffffff;
-    border: 1px solid #dadadf;
+    background-color: #f9f8f8;
+    border: 1px solid #c2c1c1;
     border-radius: 2px;
     margin-bottom: 16px;
     text-align: center;
@@ -17,19 +17,23 @@ h5 {
 }
 
 .Header {
-    background-color: #574142;
-    color: #ffffff;
+    background-color: #5d5c5c;
+    color: #f9f8f8;
     font-size: larger;
 }
 
 .Interested {
-    color: #f85032;
+    color: #fe526f;
 }
 
 .Interested:hover {
-    color: #2142b2;
+    color: #5d5c5c;
 }
 
 .InterestedOutline:hover {
-    color: #f85032;
+    color: #fe526f;
+}
+
+i {
+    font-size: 25px;
 }

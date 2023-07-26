@@ -82,7 +82,7 @@ const Event = (props) => {
             <Card.Body>
                 <Media className='align-items-center justify-content-between'>
                     <Link to={`/profiles/${profile_id}`}>
-                        <Avatar src={profile_image} height={55} />
+                        <Avatar src={profile_image} height={60} />
                         {owner}
                     </Link>
                     <div className='d-flex align-items-center'>
@@ -106,7 +106,7 @@ const Event = (props) => {
                 <hr></hr>
                 {name && <Card.Title className='text-center'>{name}</Card.Title>}
                 <hr></hr>
-                <p>date and time:</p>
+                <p>Date and time:</p>
                 {date && <Card.Title className='text-center'>{date}</Card.Title>}
                 {time && <Card.Title className='text-center'>{time}</Card.Title>}
                 <hr></hr>

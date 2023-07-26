@@ -21,6 +21,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #5d5c5c;
+    margin-bottom: 20px;
 }
   
 .Link {
@@ -39,9 +40,9 @@
 }
   
 .SignInCol {
-    height: 320px;
+    height: 330px;
 }
   
 .SignUpCol {
-    height: 375px;
+    height: 385px;
 }
