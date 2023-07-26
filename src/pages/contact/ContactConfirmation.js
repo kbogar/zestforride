@@ -8,8 +8,8 @@ const ContactConfirmation = () => {
         <Row className={styles.Row}>
 
             <Col>
-                <Container className={`${appStyles.Content} p-4 `}>
-                    <h1 className={styles.Header}>Thank you</h1>
+                <Container className={`${styles.Content} p-4 `}>
+                    <h1 className={styles.Header}>Thank you...</h1>
                     <p className={styles.Content}>We have received your message and will be in touch soon!</p>
                     <Image
                         className={`${appStyles.FillerImage}`}

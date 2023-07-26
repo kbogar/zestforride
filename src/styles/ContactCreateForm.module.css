@@ -2,12 +2,18 @@
     min-height: 346px;
 }
 
+.Content {
+    background-color: #f9f8f8;
+    padding: 20px;
+    border-radius: 2px;
+}
+
 .Row {
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .Header {
     padding-bottom: 20px;
     text-transform: uppercase;
-    color: #574142;
+    color: #5d5c5c;
 }

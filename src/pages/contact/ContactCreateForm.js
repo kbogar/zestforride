@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button, Row, Col, Container, Alert } from "react-bootstrap";
 import styles from "../../styles/ContactCreateForm.module.css";
-import appStyles from "../../App.module.css";
 import btnStyles from "../../styles/Button.module.css";
 import { useHistory } from "react-router";
 import { axiosReq } from "../../api/axiosDefaults";
@@ -42,7 +41,7 @@ function ContactCreateForm() {
     return (
         <Row className={styles.Row}>
             <Col>
-                <Container className={`${appStyles.Message}`}>
+                <Container className={styles.Content}>
                     <h1 className={styles.Header}>Contact Us</h1>
                     <Form onSubmit={handleSubmit}>
                         <Form.Group>
@@ -109,12 +108,12 @@ function ContactCreateForm() {
                         ))}
 
                         <Button
-                            className={`${btnStyles.Button} ${btnStyles.Blue}`}
+                            className={`${btnStyles.Button} ${btnStyles.Black}`}
                             onClick={() => history.goBack()}
                         >
                             cancel
                         </Button>
-                        <Button className={`${btnStyles.Button} ${btnStyles.Blue}`} type="submit">
+                        <Button className={`${btnStyles.Button} ${btnStyles.Black}`} type="submit">
                             submit
                         </Button>
                     </Form>
