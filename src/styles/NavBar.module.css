@@ -1,16 +1,12 @@
 .NavBar {
     background-color: #f9f8f8;
-    font-size: 25px;
+}
+
+.NavLink {
+    font-size: 24px;
+    padding: 2px 6px 2px 6px;
 }
 
 .Active {
     color: #fe526f;
-}
-
-i {
-    padding: 6px;
-}
-
-a {
-    padding: 8px;
 }
