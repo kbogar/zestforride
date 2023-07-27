@@ -32,7 +32,7 @@ const NavBar = () => {
             activeClassName={styles.Active}
             to="/posts/create"
         >
-            <i class="fa-solid fa-square-plus"></i>Add post
+            <i class="fa-solid fa-square-plus"></i>post
         </NavLink>
     );
 
@@ -43,7 +43,7 @@ const NavBar = () => {
             activeClassName={styles.Active}
             to="/events/create"
         >
-            <i class="fa-solid fa-square-plus"></i>Add event
+            <i class="fa-solid fa-square-plus"></i>event
         </NavLink>
     );
 
