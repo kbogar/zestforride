@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "../../styles/ContactCreateForm.module.css";
 import appStyles from "../../App.module.css";
-import { Col, Row, Container, Image } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/Container";
 
 const ContactConfirmation = () => {
     return (

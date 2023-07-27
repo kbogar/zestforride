@@ -1,5 +1,11 @@
 import React, { useRef, useState } from "react";
-import { Form, Button, Row, Col, Container, Image, Alert } from "react-bootstrap";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
+import Alert from "react-bootstrap/Alert";
 import Upload from "../../assets/upload.png";
 import styles from "../../styles/EventCreateEditForm.module.css";
 import appStyles from "../../App.module.css";
