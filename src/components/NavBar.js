@@ -34,7 +34,7 @@ const NavBar = () => {
             activeClassName={styles.Active}
             to="/posts/create"
         >
-            <i class="fa-solid fa-square-plus"></i>post
+            <i className="fa-solid fa-square-plus"></i>post
         </NavLink>
     );
 
@@ -45,7 +45,7 @@ const NavBar = () => {
             activeClassName={styles.Active}
             to="/events/create"
         >
-            <i class="fa-solid fa-square-plus"></i>event
+            <i className="fa-solid fa-square-plus"></i>event
         </NavLink>
     );
 
@@ -81,7 +81,7 @@ const NavBar = () => {
                 to="/"
                 onClick={handleSignOut}
             >
-                <i class="fa-solid fa-right-from-bracket"></i>Sign out
+                <i className="fa-solid fa-right-from-bracket"></i>Sign out
             </NavLink>
             <NavLink
                 className={styles.NavLink}
@@ -101,7 +101,7 @@ const NavBar = () => {
                 activeClassName={styles.Active}
                 to="/signin"
             >
-                <i class="fa-solid fa-right-to-bracket"></i>Sign in
+                <i className="fa-solid fa-right-to-bracket"></i>Sign in
             </NavLink>
             <NavLink
                 exact
@@ -109,7 +109,7 @@ const NavBar = () => {
                 activeClassName={styles.Active}
                 to="/signup"
             >
-                <i class="fa-solid fa-user-plus"></i>Sign up
+                <i className="fa-solid fa-user-plus"></i>Sign up
             </NavLink>
         </>
     );
