@@ -11,3 +11,25 @@ The overall structure of the project was based on Code Institutes [Moments](http
 - [Deployed Zest For Ride API](https://zest-for-ride-bf40c62cc6cb.herokuapp.com/)
 - [Deployed Zest For Ride Frontend webapp](https://zestforride-51d93abad130.herokuapp.com/)
 - [Backend Repository](https://github.com/kbogar/drf-api-zestforride)
+
+# Table of Contents
+* [Entity Relationship Diagram](#entity-relationship-diagram)
+* [Agile Methodology](#agile-methodology)
+
+# Entity Relationship Diagram
+Before starting the project, I conducted thorough research to define the data models needed for the application. This involved identifying entities, relationships, and creating a comprehensive list of fields and actions required for the app to function correctly. With this information, I built the necessary models, ensuring the application meets its goals.
+
+![](/docs/erd.png)
+
+# Agile Methodology
+- This project was developed using the agile methodology and version control on GitHub. Tasks were tracked and managed through Github's issue-tracking system, allowing for rapid progress and continued progress tracking.
+- The User Stories were organized by must haves, should haves, as well as required backend API functionality labels.
+## [User Stories Board](https://github.com/users/kbogar/projects/5)
+![](/docs/user_stories.png)
+
+## [Issues](https://github.com/kbogar/zestforride/issues)
+![](/docs/issues.png)
+
+Agile Methodology proved invaluable for my project. Breaking it into smaller tasks helped me track progress, stay on schedule, and adapt plans efficiently. The satisfaction of completing User Stories was a great motivator.
+
+[Back to top](#table-of-contents)
