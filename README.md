@@ -16,6 +16,11 @@ The overall structure of the project was based on Code Institutes [Moments](http
 * [Entity Relationship Diagram](#entity-relationship-diagram)
 * [Agile Methodology](#agile-methodology)
 * [User Experience UX](#user-experience-ux)
+    * [Wireframes](#wireframes)
+    * [User Stories](#user-stories)
+    * [Color Scheme](#color-scheme)
+    * [Typography](#typography)
+    * [Icons](#icons)
 
 # Entity Relationship Diagram
 Before starting the project, I conducted thorough research to define the data models needed for the application. This involved identifying entities, relationships, and creating a comprehensive list of fields and actions required for the app to function correctly. With this information, I built the necessary models, ensuring the application meets its goals.
@@ -122,4 +127,41 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 ![](/docs/colorspace4.png)
 
 ## Typography
-[Google Fonts](https://fonts.google.com/) Oswald and Sans Serif were used to create this website
+[Google Fonts](https://fonts.google.com/) Oswald and Sans Serif were used to create this website.
+
+## Icons
+[Font Awesome](https://fontawesome.com/) icons were used throughout the website.
+
+[Back to top](#table-of-contents)
+
+# Features
+## Existing Features
+
+### Header & Navigation
+- Logo with a link which brings the user to the home page. Navigation menu consisting of links to other pages, and they change depends if the user is logged in or not.
+- In order to make navigation easier for the user, the navigation bar is in a fixed position, it remains at the top of the page as the user scrolls down.
+- The navigation bar appears in the same format on all pages.
+
+<details>
+
+<summary>Click to view screenshots of Navigation features</summary>
+
+**Navigation Mobile logged out**
+
+![](/docs/nav_mobile.png)
+
+**Navigation Desktop logged out**
+
+![](/docs/nav_desktop.png)
+
+**Navigation Mobile logged in**
+
+![](/docs/nav_mobile_loggedin.png)
+
+**Navigation Desktop logged in**
+
+![](/docs/nav_desktop_loggedin.png)
+
+</details>
+
+<br>
