@@ -111,3 +111,15 @@ Every User Story was recorded in GitHub Issues, and the goal is to establish wha
 - As an owner of the event I can delete it so that I can control the removal of my event from the application
 - As a logged-in user I can submit a contact form so that I can keep in touch with the app owner for any inquires
 - As a logged-in user I can add interest to the event post so that I can display my interest in an event
+
+## Color Scheme
+Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Highlight and Shades palette for this website, to achieve a simple, minimalistic design elements.
+
+![](/docs/colorspace2.png)
+
+![](/docs/colorspace3.png)
+
+![](/docs/colorspace4.png)
+
+## Typography
+[Google Fonts](https://fonts.google.com/) Oswald and Sans Serif were used to create this website
