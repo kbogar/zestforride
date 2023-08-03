@@ -189,3 +189,30 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 </details>
 
 <br>
+
+### Post Page
+- The post detail page gives the ability to create comments if the user is logged in and to edit or delete a post if a user is the owner.
+
+<details>
+
+<summary>Click to view screenshots of the Home Page</summary>
+
+**Post Details Page Mobile**
+
+![](/docs/postdetail_mobile.png)
+
+**Post Details Page Desktop**
+
+![](/docs/postdetail_desktop.png)
+
+**Post Details Menu**
+
+![](/docs/postmenu_mobile.png)
+
+**Post Edit**
+
+![](/docs/postedit_desktop.png)
+
+</details>
+
+<br>
