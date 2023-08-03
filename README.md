@@ -216,3 +216,21 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 </details>
 
 <br>
+
+### Events Page
+- The events page showcases events created by users.
+- It consists of the user's username, profile image, date created, event details - a title, date and time of the event, description, and also a user interaction of interested count.
+- The search bar is allowing the user to easily search the existing events by username, title and content.
+- The most followed profiles section is allowing users to see other users and gives them a possibility to follow and unfollow users and to visit their profiles.
+
+<details>
+
+<summary>Click to view screenshots of the Home Page</summary>
+
+**Post Details Page Mobile**
+
+![](/docs/events_desktop.png)
+
+</details>
+
+<br>
