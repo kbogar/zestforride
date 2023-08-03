@@ -21,6 +21,8 @@ The overall structure of the project was based on Code Institutes [Moments](http
     * [Color Scheme](#color-scheme)
     * [Typography](#typography)
     * [Icons](#icons)
+* [Features](#features)
+    * [Existing Features](#existing-features)
 
 # Entity Relationship Diagram
 Before starting the project, I conducted thorough research to define the data models needed for the application. This involved identifying entities, relationships, and creating a comprehensive list of fields and actions required for the app to function correctly. With this information, I built the necessary models, ensuring the application meets its goals.
@@ -161,6 +163,28 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 **Navigation Desktop logged in**
 
 ![](/docs/nav_desktop_loggedin.png)
+
+</details>
+
+<br>
+
+### Home Page
+- The homepage consists of a section with user's posts, a section with the Most followed profiles, a search bar, and a navbar with an Add post and Add event button.
+- The posts show the user's username, profile image, date when it was created, the title and content, and also a user interaction of likes and comments count.
+- The search bar is allowing the user to easily search the existing posts by username, title and content.
+- The most followed profiles section is allowing users to see other users and gives them a possibility to follow and unfollow users and to visit their profiles.
+
+<details>
+
+<summary>Click to view screenshots of the Home Page</summary>
+
+**Home Page Mobile**
+
+![](/docs/home_mobile.png)
+
+**Home Page Desktop**
+
+![](/docs/home_desktop.png)
 
 </details>
 
