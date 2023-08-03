@@ -234,3 +234,22 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 </details>
 
 <br>
+
+### Event Page
+- The event detail page gives the ability for the owner to edit or delete the event.
+
+<details>
+
+<summary>Click to view screenshots of the Home Page</summary>
+
+**Event Details Menu**
+
+![](/docs/eventmenu_desktop.png)
+
+**Edit Event**
+
+![](/docs/editevent_desktop.png)
+
+</details>
+
+<br>
