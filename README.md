@@ -146,7 +146,7 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 
 <details>
 
-<summary>Click to view screenshots of Navigation features</summary>
+<summary>Click to view screenshots</summary>
 
 **Navigation Mobile logged out**
 
@@ -170,11 +170,12 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 
 ### Sign Up Page
 - The sign up page can be accessed through the navigation bar only if the user is logged out.
+- This page contains a form to be completed in order to create an account and sign up.
 - The sign up form includes a message if the user already have an account then there is a sign in link also.
 
 <details>
 
-<summary>Click to view screenshots of Navigation features</summary>
+<summary>Click to view screenshots</summary>
 
 **Sign Up Page desktop**
 
@@ -188,6 +189,27 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 
 <br>
 
+### Sign In Page
+- The sign in page can be accessed through the navigation bar only if the user is logged out.
+- This page contains a form to be completed in order to sign in.
+- The sign in form includes a message if the user does not yet have an account then there is a sign up link also.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+**Sign In Page desktop**
+
+![](/docs/signin_desktop.png)
+
+**Sign In Page Mobile**
+
+![](/docs/signin_mobile.png)
+
+</details>
+
+<br>
+
 ### Home Page
 - The homepage consists of a section with user's posts, a section with the Most followed profiles, a search bar, and a navbar with an Add post and Add event button.
 - The posts show the user's username, profile image, date when it was created, the title and content, and also a user interaction of likes and comments count.
@@ -196,7 +218,7 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 
 <details>
 
-<summary>Click to view screenshots of the Home Page</summary>
+<summary>Click to view screenshots</summary>
 
 **Home Page Mobile**
 
@@ -215,7 +237,7 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 
 <details>
 
-<summary>Click to view screenshots of the Home Page</summary>
+<summary>Click to view screenshots</summary>
 
 **Post Details Page Mobile**
 
@@ -245,7 +267,7 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 
 <details>
 
-<summary>Click to view screenshots of the Home Page</summary>
+<summary>Click to view screenshots</summary>
 
 **Post Details Page Mobile**
 
@@ -260,7 +282,7 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 
 <details>
 
-<summary>Click to view screenshots of the Home Page</summary>
+<summary>Click to view screenshots</summary>
 
 **Event Details Menu**
 
