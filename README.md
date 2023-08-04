@@ -336,3 +336,22 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 </details>
 
 <br>
+
+### Profile Page
+- The profile page can be accessed through the navigation bar if the user is the owner, or other users by clicking on their profile images.
+- It consists of the user's username, profile image, bio, and user stats - number of events, posts, followers, and following.
+- It also consists of posts or events created by the user.
+- Follow/Unfollow button if the user is not the profile owner.
+- Dropdown menu to edit profile, change username and password if the user is the profile owner. 
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+**Profile Page Desktop**
+
+![](/docs/profile_desktop.png)
+
+</details>
+
+<br>
