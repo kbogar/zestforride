@@ -392,3 +392,14 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 - [Unsplash](https://unsplash.com/) - Stock photos
 - [Favicon](https://www.favicon.cc/) - for favicon
 - [Am I Responsive](https://ui.dev/amiresponsive) - for responsive visuals of the website.
+
+# Components
+Several components have been implemented in this project which allow for reuse across the web app.
+- axiosDefault.js - for backend API communication.
+- Asset.js, Avatar.js - for loading spinner and user avatar.
+- MoreDropdown.js - to allow users to edit or delete their profile, posts, events.
+- CurrentUserContext.js - check for the user logged in status to determine which functionality is available for the user.
+- ProfileDataContext.js - ad functionality to follow/unfollow users.
+- useClickOutsideToggle.js - navbar functionality for automatic collapse upon mouse click.
+- useRedirect.js - redirect a user to another page if they are not authorized to be on the page they are trying to access
+- utils.js - add functionality to components that make use of Infinite Scroll.
