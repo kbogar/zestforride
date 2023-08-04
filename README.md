@@ -168,6 +168,26 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 
 <br>
 
+### Sign Up Page
+- The sign up page can be accessed through the navigation bar only if the user is logged out.
+- The sign up form includes a message if the user already have an account then there is a sign in link also.
+
+<details>
+
+<summary>Click to view screenshots of Navigation features</summary>
+
+**Sign Up Page desktop**
+
+![](/docs/signup_desktop.png)
+
+**Sign Up Page Mobile**
+
+![](/docs/signup_mobile.png)
+
+</details>
+
+<br>
+
 ### Home Page
 - The homepage consists of a section with user's posts, a section with the Most followed profiles, a search bar, and a navbar with an Add post and Add event button.
 - The posts show the user's username, profile image, date when it was created, the title and content, and also a user interaction of likes and comments count.
