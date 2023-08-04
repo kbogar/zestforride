@@ -23,6 +23,7 @@ The overall structure of the project was based on Code Institutes [Moments](http
     * [Icons](#icons)
 * [Features](#features)
     * [Existing Features](#existing-features)
+    * [Future Features](#future-features)
 
 # Entity Relationship Diagram
 Before starting the project, I conducted thorough research to define the data models needed for the application. This involved identifying entities, relationships, and creating a comprehensive list of fields and actions required for the app to function correctly. With this information, I built the necessary models, ensuring the application meets its goals.
@@ -355,3 +356,10 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 </details>
 
 <br>
+
+## Future Features
+- The ability to leave comments on events.
+- The ability to se who is interested on events.
+- Notification when the user receives a new follower, a like and comment on posts.
+
+[Back to top](#table-of-contents)
