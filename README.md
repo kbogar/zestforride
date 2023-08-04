@@ -393,7 +393,7 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 - [Favicon](https://www.favicon.cc/) - for favicon
 - [Am I Responsive](https://ui.dev/amiresponsive) - for responsive visuals of the website.
 
-# Components
+## Components
 Several components have been implemented in this project which allow for reuse across the web app.
 - axiosDefault.js - for backend API communication.
 - Asset.js, Avatar.js - for loading spinner and user avatar.
@@ -403,3 +403,8 @@ Several components have been implemented in this project which allow for reuse a
 - useClickOutsideToggle.js - navbar functionality for automatic collapse upon mouse click.
 - useRedirect.js - redirect a user to another page if they are not authorized to be on the page they are trying to access
 - utils.js - add functionality to components that make use of Infinite Scroll.
+
+[Back to top](#table-of-contents)
+
+# Testing
+All testing information can be found in [TESTING.md]()
