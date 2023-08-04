@@ -24,6 +24,7 @@ The overall structure of the project was based on Code Institutes [Moments](http
 * [Features](#features)
     * [Existing Features](#existing-features)
     * [Future Features](#future-features)
+* [Technologies and Tools Used](#technologies-and-tools-used)
 
 # Entity Relationship Diagram
 Before starting the project, I conducted thorough research to define the data models needed for the application. This involved identifying entities, relationships, and creating a comprehensive list of fields and actions required for the app to function correctly. With this information, I built the necessary models, ensuring the application meets its goals.
@@ -363,3 +364,31 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 - Notification when the user receives a new follower, a like and comment on posts.
 
 [Back to top](#table-of-contents)
+
+# Technologies and Tools Used
+
+## Languages Used
+- [HTML5](https://www.w3schools.com/html/)
+- [CSS3](https://www.w3schools.com/css/css_intro.asp)
+- [JavaScript](https://www.w3schools.com/js/)
+
+## Frameworks, Libraries & Apps Used
+- [React](https://legacy.reactjs.org/docs/getting-started.html) - was used to create this web app.
+- [React Bootstrap](https://react-bootstrap.github.io/) - for the styling and responsivnes of the site.
+- [GitPod](https://www.gitpod.io/) - Used to create and edit the website.
+- [GitHub](https://github.com/) - Cloud based git repository used.
+- [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal used to push changes to the GitHub repository.
+- [Cloudinary](https://cloudinary.com/) - Used to host all static files and images.
+- [Heroku](https://www.heroku.com) - Used to deploy the website.
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Test responsiveness and debug.
+- [Balsamiq](https://balsamiq.com/wireframes/) - Used to create the wireframes for the project.
+- [W3C Validator](https://validator.w3.org/) - Used to validate HTML code.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - A validator which checks the validity of CSS code.
+- [ElephantSQL](https://www.elephantsql.com/) - PostgreSQL database hosting service.
+- [Google Fonts](https://fonts.google.com/) - Fonts
+- [Font Awesome](https://fontawesome.com/) - Icons
+- [Color Space](https://mycolor.space/) - Colour Palette Generator
+- [Pexels](https://www.pexels.com/) - Stock photos
+- [Unsplash](https://unsplash.com/) - Stock photos
+- [Favicon](https://www.favicon.cc/) - for favicon
+- [Am I Responsive](https://ui.dev/amiresponsive) - for responsive visuals of the website.
