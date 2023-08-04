@@ -310,3 +310,29 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 </details>
 
 <br>
+
+### Contact Us Page
+- The contact us page can be accessed through the navigation bar if the user is logged in.
+- The contact form includes these fields; name, email, subject, message. 
+- The form is submitted via Submit button at the bottom of the form.
+- After submitting the form successfully, a thank you message is displayed on the screen giving the user feedback about their sent message.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+**Contact Us Page Desktop**
+
+![](/docs/contactus_desktop.png)
+
+**Contact Us Page Mobile**
+
+![](/docs/contactus_mobile.png)
+
+**Thank You Message**
+
+![](/docs/confirm_desktop.png)
+
+</details>
+
+<br>
