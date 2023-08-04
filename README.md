@@ -295,3 +295,18 @@ Using [ColorSpace](https://mycolor.space/), I decided to use a mix of Classy, Hi
 </details>
 
 <br>
+
+### Liked Page
+- The liked page contains the most liked posts.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+**Liked Page Desktop**
+
+![](/docs/liked_desktop.png)
+
+</details>
+
+<br>
