@@ -27,6 +27,8 @@ The overall structure of the project was based on Code Institutes [Moments](http
 * [Technologies and Tools Used](#technologies-and-tools-used)
 * [Testing](#testing)
 * [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 # Entity Relationship Diagram
 Before starting the project, I conducted thorough research to define the data models needed for the application. This involved identifying entities, relationships, and creating a comprehensive list of fields and actions required for the app to function correctly. With this information, I built the necessary models, ensuring the application meets its goals.
@@ -519,3 +521,33 @@ The steps for deploying through Heroku are as follows:
 </details>
 
 <br>
+
+## Forking the GitHub Repository
+Forking allows you to view and edit the code without affecting the original repository.
+- Navigate to GitHub repository.
+- Click on 'Fork' in the top right corner.
+- This will take you to your own repository to fork with the same name as the original branch.
+
+## Creating Local Clone
+Steps to create a local clone:
+- Click on the code tab under the repository name.
+- Then click 'Code' button to the right above the files listed.
+- Click on clipboard icon to copy the URL.
+
+[Back to top](#table-of-contents)
+
+# Credits
+## Content
+- Code Institutes [Moments](https://github.com/Code-Institute-Solutions/moments) walkthrough
+- [React](https://legacy.reactjs.org/docs/getting-started.html) - was used to create this web app.
+- [React Bootstrap](https://react-bootstrap.github.io/) - for the styling and responsivnes of the site.
+- [Slack](https://slack.com/) for any issues and questions.
+- [W3CSchool](https://www.w3schools.com/) for general and helpful tips.
+- [Stack Overflow](https://stackoverflow.com/) when I was stucked and needed help with code.
+
+# Acknowledgements
+- This project was built as a part of the Full Stack Software Development education at [Code Institute](https://codeinstitute.net/).
+- My mentor Spencer Barriball for the guidance and encouragement.
+- My Wifi thank you for all the support.
+
+[Back to top](#table-of-contents)
