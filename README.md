@@ -447,3 +447,75 @@ I encountered a few errors during the coding of my project and there were fixed 
 
 ## Unsolved
 At the moment there are no known bugs left to solve.
+
+[Back to top](#table-of-contents)
+
+# Deployment
+This project is deployed using [Heroku](https://www.heroku.com).
+
+The steps for deploying through Heroku are as follows:
+- Go to Heroku website and log in.
+- Go to Dashboard, click on 'New' and 'Create New App'.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+![](/docs/heroku1.png)
+
+</details>
+
+<br>
+
+- Add name for your app and choose region.
+- Then click 'Create app'.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+![](/docs/heroku2.png)
+
+</details>
+
+<br>
+
+- Navigate to 'Deploy' tab and choose 'Connect to Github'.
+- Search for your repository that you want to deploy.
+- Click 'Connect'.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+![](/docs/heroku3.png)
+
+</details>
+
+<br>
+
+- You can choose if you want manual or automatic deployment.
+- Choose Main Branch and click 'Deploy Branch'.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+![](/docs/heroku4.png)
+
+</details>
+
+<br>
+
+- When the deployment is succesfully finished,
+- Click 'Open app'.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+![](/docs/heroku5.png)
+
+</details>
+
+<br>
