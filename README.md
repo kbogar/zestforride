@@ -26,6 +26,7 @@ The overall structure of the project was based on Code Institutes [Moments](http
     * [Future Features](#future-features)
 * [Technologies and Tools Used](#technologies-and-tools-used)
 * [Testing](#testing)
+* [Bugs](#bugs)
 
 # Entity Relationship Diagram
 Before starting the project, I conducted thorough research to define the data models needed for the application. This involved identifying entities, relationships, and creating a comprehensive list of fields and actions required for the app to function correctly. With this information, I built the necessary models, ensuring the application meets its goals.
@@ -409,3 +410,40 @@ Several components have been implemented in this project which allow for reuse a
 
 # Testing
 All testing information can be found in [TESTING.md](https://github.com/kbogar/zestforride/blob/main/TESTING.md)
+
+# Bugs
+I encountered a few errors during the coding of my project and there were fixed throughout the development.
+
+## Solved
+- Trailing slash on void elements issue at HTML validator. Solved by deleting all the backslashes on index.html.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+![](/docs/html_validator_error.png)
+
+</details>
+
+<br>
+
+- I had an issue when I started to connect the frontend React app with the backend API at the Profile detail page, the events count didn't work correctly. The problem was I forgot add the events_count to API, so I solved the issue by adding it to the correct app classes.
+
+<details>
+
+<summary>Click to view screenshots</summary>
+
+![](/docs/events%20count%20issue.PNG)
+
+![](/docs/events%20count%20issue2.png)
+
+![](/docs/events%20count%20issue3.png)
+
+![](/docs/events%20count%20issue4.png)
+
+</details>
+
+<br>
+
+## Unsolved
+At the moment there are no known bugs left to solve.

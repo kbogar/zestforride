@@ -125,3 +125,5 @@ This project was tested manually several times throughout and after development.
 - The interested on event is functioning as expected, with owners of events not being able to do this on their content.
 - The users profile can only be updated and cannot be deleted.
 - Thorough testing of all CRUD functionality confirms precise replication on the front-end, aligning perfectly with the corresponding operations carried out in the back-end.
+
+[Back to top](#table-of-contents)
