@@ -113,4 +113,15 @@
     - Microsoft Edge
 
 ## Manual Testing
-- This project was tested manually several times throughout and after development.
+This project was tested manually several times throughout and after development.
+- All links were checked on web pages external/internal and they are working.
+- By clicking on the site logo gets you to the home page.
+- All forms were checked, and user input validation was thoroughly performed to provide accurate feedback and ensure the correctness of submitted data on the back-end. Additionally, data was reliably displayed when editing content, maintaining its accuracy throughout the process.
+- Unauthorized users attempting to access restricted URLs, such as comment creation without logging in or editing/deleting content belonging to others, are promptly redirected to prevent unauthorized actions.
+- The app's sign-up, sign-in, and sign-out features were thoroughly tested to ensure smooth user access, while effectively distinguishing between content accessible to logged-in and logged-out users.
+- The dropdown edit and delete functionality is appropriately restricted to display only for content owners, as expected.
+- Registered users have access to the Contact Us page, by filling out the form they can contact the owner of the webapp.
+- The liking posts, and following users are functioning as expected, but owners are not able to do this on their content.
+- The interested on event is functioning as expected, with owners of events not being able to do this on their content.
+- The users profile can only be updated and cannot be deleted.
+- Thorough testing of all CRUD functionality confirms precise replication on the front-end, aligning perfectly with the corresponding operations carried out in the back-end.
