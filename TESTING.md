@@ -2,6 +2,7 @@
 * [Validator Testing](#validator-testing)
     * [HTML Code Validator](#html-code-validator)
     * [CSS Code Validator](#css-code-validator)
+* [Lighthouse Testing](#lighthouse-testing)
 
 # Testing
 
@@ -9,6 +10,10 @@
 
 ### HTML Code Validator
 - All the HTML pages were tested with [W3C Validator](https://validator.w3.org/) and there were no errors found.
+
+<details>
+
+<summary>Click to view screenshots</summary>
 
 **Sign Up Page**
 
@@ -74,6 +79,10 @@
 
 ![](/docs/404page.png)
 
+</details>
+
+<br>
+
 [Back to top](#table-of-contents)
 
 ### CSS Code Validator
@@ -85,3 +94,12 @@
 ![](/docs/csstest.png)
 
 [Back to top](#table-of-contents)
+
+### Lighthouse Testing
+- The project has been tested with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) Lighthouse.
+- Performance scores on Home, Events, and Liked pages were affected mainly because of image sizes from Cloudinary. Performance was not impacted by the same issue on Profile, Contact Us and the rest of the pages.
+- In the future I will see to fix this issue, but because of time constraints, I could not investigate further at this time.
+
+**Lighthouse**
+
+![](/docs/lighthouse_test.PNG)
