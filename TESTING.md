@@ -3,6 +3,8 @@
     * [HTML Code Validator](#html-code-validator)
     * [CSS Code Validator](#css-code-validator)
 * [Lighthouse Testing](#lighthouse-testing)
+* [Browsers And Responsivness Testing](#browser-and-responsivness-testing)
+* [Manual Testing](#manual-testing)
 
 # Testing
 
@@ -95,7 +97,7 @@
 
 [Back to top](#table-of-contents)
 
-### Lighthouse Testing
+## Lighthouse Testing
 - The project has been tested with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) Lighthouse.
 - Performance scores on Home, Events, and Liked pages were affected mainly because of image sizes from Cloudinary. Performance was not impacted by the same issue on Profile, Contact Us and the rest of the pages.
 - In the future I will see to fix this issue, but because of time constraints, I could not investigate further at this time.
@@ -103,3 +105,12 @@
 **Lighthouse**
 
 ![](/docs/lighthouse_test.PNG)
+
+## Browser and Responsivness Testing
+- The website is responsive and was tested on the following browsers with no known issues:
+    - Mozilla Firefox
+    - Google Chrome
+    - Microsoft Edge
+
+## Manual Testing
+- This project was tested manually several times throughout and after development.

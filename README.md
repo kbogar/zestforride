@@ -25,6 +25,7 @@ The overall structure of the project was based on Code Institutes [Moments](http
     * [Existing Features](#existing-features)
     * [Future Features](#future-features)
 * [Technologies and Tools Used](#technologies-and-tools-used)
+* [Testing](#testing)
 
 # Entity Relationship Diagram
 Before starting the project, I conducted thorough research to define the data models needed for the application. This involved identifying entities, relationships, and creating a comprehensive list of fields and actions required for the app to function correctly. With this information, I built the necessary models, ensuring the application meets its goals.
